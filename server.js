@@ -24,6 +24,9 @@ app.get("/api/hello", function (req, res) {
   res.json({greeting: 'hello API'});
 });
 
+app.get('/api/timestamp/', (req, res, next) => {
+console.log('boobs');
+})
 
 
 // listen for requests :)
